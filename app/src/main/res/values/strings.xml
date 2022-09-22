@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NewApplication</string>
+    <string name="enter_city_hint">Enter city</string>
+    <string name="btn_get_weather">Get weather</string>
+</resources>
