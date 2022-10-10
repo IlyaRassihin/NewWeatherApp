@@ -15,7 +15,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tv_Greeting"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="72dp"
@@ -34,17 +34,21 @@
         android:id="@+id/et_enter_city"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginSmall"
         android:layout_marginTop="48dp"
+        android:layout_marginEnd="@dimen/marginSmall"
         android:hint="@string/enter_city_hint"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Greeting"
         tools:layout_editor_absoluteX="20dp" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
         android:id="@+id/btn_get_weather"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
+        android:backgroundTint="@color/blue"
         android:text="@string/btn_get_weather"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
